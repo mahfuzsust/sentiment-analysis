@@ -8,7 +8,7 @@ class TwitterSentiment(object):
         self.__sentiment = SentimentAnalysis()
     
     def get_sentimented_tweets(self, query, count = 10):
-        fetched_tweets = self.__api.get_tweets(query = query, count = 200)
+        fetched_tweets = self.__api.get_tweets(query = query, count = count)
         tweets = []
         for tweet in fetched_tweets: 
             parsed_tweet = {}   
