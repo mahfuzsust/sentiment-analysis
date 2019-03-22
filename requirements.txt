@@ -2,3 +2,5 @@ gunicorn==19.9.0
 Flask==0.12.2
 Flask-Cors==3.0.7
 Flask-RESTful==0.3.7
+textblob=0.15.3
+tweepy=3.7.0

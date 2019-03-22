@@ -24,4 +24,3 @@ def get_sentiment():
 
 if __name__ == '__main__':
     app.run()
-    app.config.from_envvar('consumer_key')
